@@ -1,0 +1,48 @@
+.item-del{
+    background: transparent linear-gradient(270deg, #FFFFFF 0%, #C9F9F7 100%);
+    padding:4px 4px;
+    border-radius: 10px;
+    font-size: 10px;
+    text-transform: uppercase;font-weight: 400;
+    color:#009A93;
+}
+.row_star_img span {
+    font-size: 13px;
+    color: #7C7C7C;
+}
+
+@media screen and (min-width:320px) and (max-width:600px){
+         .food_text h6{
+            font-size: 10px;
+            margin-top: 12px;
+            padding-left: 12px;  
+         }
+         .row_star_img img{
+            width:30px;
+         }
+         .row_star_img{
+            padding: 0px !important;
+         }
+         .row_star_img p{
+            font-size:10px;
+            color: #7C7C7C !important;
+         }
+         .row_star_img span{
+            font-size: 10px;
+         }
+         .food-foot{
+            font-size:8px;
+         }
+         .item-del{
+            font-size: 7px;
+            padding: 0px;
+            margin-top: 8px !important;
+         }
+         .item-del img{
+            width: 20px;
+         }
+         .chet-food{
+            font-size: 10px !important;
+         }
+
+}
